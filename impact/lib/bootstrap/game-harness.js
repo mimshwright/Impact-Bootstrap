@@ -75,6 +75,8 @@ ig.module(
         loadLevel:function (data)
         {
 
+            if (!data) { return; }
+
             // Reset Default Values
             //this.defaultCaption = ig.config.text.defaultCaption; //TODO should this be left in here?
 
